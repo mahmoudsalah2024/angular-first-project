@@ -1,0 +1,12 @@
+.home {
+    background-color: var(--main-color);
+}
+
+img {
+  width: 250px;
+}
+
+.line {
+  height: 4px;
+  width: 80px;
+}

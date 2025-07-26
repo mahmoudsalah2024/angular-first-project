@@ -1,0 +1,8 @@
+.about {
+    background-color: var(--main-color);
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+}

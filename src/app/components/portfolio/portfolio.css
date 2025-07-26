@@ -1,0 +1,41 @@
+.line {
+    height: 4px;
+    width: 80px;
+}
+
+.layer__:hover {
+    opacity: 1;
+}
+
+.layer__ {
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2c3e508f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+.overlay div {
+    max-width: 50%;
+    min-width: 320px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay .preview {
+    width: 100%;
+    object-fit: contain;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}

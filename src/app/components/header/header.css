@@ -1,0 +1,11 @@
+nav {
+    background-color: var(--second-color);
+    transition: .6s padding;
+}
+
+.active {
+    background-color: var(--main-color);
+  }
+.rounded-3 {
+    border-radius: var(--bs-border-radius-lg) !important;
+  }
